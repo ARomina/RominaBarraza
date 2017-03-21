@@ -1,0 +1,158 @@
+/* Pagina Principal */ 
+#jumbo{
+  background-image: url("../img/backimg1.jpg");
+  background-color: #f9f9f9;
+  background-size: cover;
+  background-position: top;
+  margin-bottom: 0;
+}
+
+#fondoContainer{
+	background-color: #189877;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 2%;
+	padding-right: 2%;
+	min-height: 100%;
+}
+
+/* navbar */
+#navBarRight{
+	margin-right: 1%;
+}
+
+#navBarLeft{
+	margin-left: 1%;
+}
+
+#navBar{
+	margin-bottom: 0;
+}
+
+.botonesPrincipal{
+	margin-top: 5%;
+}
+
+#botonVerMaterias{
+	background-color: #001505;
+	border-color: #001505;
+}
+
+#botonAltaMaterias{
+	background-color: #189877;
+	border-color: #189877;
+	/*border-color: #116E55;*/
+}
+
+/* Row - Titulo */
+.titulo{
+	text-align:center;
+	color: #ffffff;
+	margin: 1%;
+}
+
+/* Tabla */
+.thead_texto{
+	/*text-align: center;*/
+}
+
+.tabla{
+	background-color: #ffffff;
+	margin-bottom: 2%;
+
+}
+
+/* Bordes curvados de la tabla, para cuando es un solo resultado o varios */
+
+.table-curved {
+	border-collapse: separate;
+    border: solid #116E55;
+    border-radius: 6px;
+}
+.table-curved td, .table-curved th {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+.table-curved th {
+    border-top: none;
+}
+.table-curved th:first-child {
+    border-radius: 6px 0 0 0;
+}
+.table-curved th:last-child {
+    border-radius: 0 6px 0 0;
+}
+.table-curved th:only-child{
+    border-radius: 6px 6px 0 0;
+}
+.table-curved tr:last-child td:first-child {
+    border-radius: 0 0 0 6px;
+}
+.table-curved tr:last-child td:last-child {
+    border-radius: 0 0 6px 0;
+}
+
+.divAccionesBtn{
+	margin-left: 15%;
+}
+
+/* Formulario Alta */
+#formularioAlta, #formularioModif{
+	margin-top: 4%;
+	margin-left: auto;
+	margin-right: auto;
+	border: #116E55 solid;
+	padding: 5%;
+	font-size: 14px;
+	background-color: #ffffff;
+	border-radius: 20px;
+}
+
+#formularioAlta label, #formularioModif label{
+	text-align: right;
+	padding-right: 0;
+}
+
+#botonSubmitAlta, #botonSubmitModif{
+	background-color: #189877;
+	border-color: #116E55;
+}
+
+#selectCargaHoraria{
+	margin-top: 10%;
+}
+
+.alertas{
+	color: #E51B24;
+}
+
+#alertaMateria, #alertaCarrera, #alertaDescripcion, #alertaCargaHoraria{
+	visibility: hidden;
+}
+
+.error{
+	border-color: #E51B24;
+}
+
+/* Footer */
+#footer{
+	background-color: #001505;
+}
+
+#footer div{
+	margin: 0;
+}
+
+/*#footer p{
+	margin-top: 4%;
+	margin-bottom: 4%;
+	text-align:center;
+	color: #ffffff;
+}*/
+
+#footer p{
+	margin-top: 1%;
+	margin-bottom: 1%;
+	text-align:center;
+	color: #ffffff;
+}
